@@ -3,8 +3,20 @@
 }
 
 .App-logo {
-  height: 40vmin;
+  height: 60vmin;
   pointer-events: none;
+  position: absolute;
+  top: -12vmin;
+  /* right: 110px; */
+  /* margin: 0 auto; */
+}
+
+.InsideEarth {
+  position: absolute;
+}
+
+.App-store-button {
+  height: 8vmin;
 }
 
 @media (prefers-reduced-motion: no-preference) {
@@ -13,14 +25,43 @@
   }
 }
 
+.Earth {
+  /* display: inline-block;
+  vertical-align: middle; */
+  display: flex;
+  justify-content: center;
+  position: relative;
+  height: 41vmin;
+}
+
 .App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+  background-color: #4BBEFF;
+  min-height: 90vh;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-footer {
+  background-color: #2D2D2D;
+  min-height: 10vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 1vmin);
+  color: white;
+
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+}
+
+a {
+  text-decoration: none;
   color: white;
 }
 
@@ -35,4 +76,36 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+h1 {
+  font-size: 30vmin;
+  /* font-weight: bold; */
+
+  margin-top: 0em;
+  margin-bottom: 0em;
+  margin-left: 0;
+  margin-right: 0;
+}
+
+h2 {
+  font-size: 2em;
+
+  margin-top: 1em;
+  margin-bottom: 0.4em;
+  margin-left: 0;
+  margin-right: 0;
+
+  /* font-weight: bold; */
+}
+
+h3 {
+  font-size: 3em;
+
+  margin-top: 0em;
+  margin-bottom: 0em;
+  margin-left: 0;
+  margin-right: 0;
+
+  /* font-weight: bold; */
 }
