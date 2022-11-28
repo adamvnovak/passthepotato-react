@@ -8,9 +8,11 @@ function LandingPage() {
     <div className="App">
       <header className="App-header">
         <div className="Earth" > 
-          <h3 src={appstorebutton} className="App-logo" alt="logo">
-            🥔
-          </h3>
+          <div src={appstorebutton} className="App-logo" alt="logo">
+            <h3>
+              🥔
+            </h3>
+          </div>
           <h1 >
             🌎
           </h1>
